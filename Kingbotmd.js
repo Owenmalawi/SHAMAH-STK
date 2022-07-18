@@ -1409,7 +1409,13 @@ break
             break
             case 'testcmdking': {
             
-         KingmdWH.sendMessage(m.chat, {text:'cmd eka nam wada bn hode'})
+         KingmdWH.sendMessage(m.chat, {text:'1'})
+         KingmdWH.sendMessage(m.chat, {text:'2'})
+         KingmdWH.sendMessage(m.chat, {text:'3'})
+         KingmdWH.sendMessage(m.chat, {text:'4'})
+         KingmdWH.sendMessage(m.chat, {text:'5'})
+         KingmdWH.sendMessage(m.chat, {text:'6'})
+         KingmdWH.sendMessage(m.chat, {text:'7'})
                           
                           }
                           break
@@ -1998,7 +2004,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"title": "━━━━━━━━━━━━━━━━━━━━━━━━",
 								"rows": [
 									{
-										"title": "ᴘᴇᴄɪᴀʟ Tʜᴀɴᴋꜱ Tᴏ",
+										"title": "Sᴘᴇᴄɪᴀʟ Tʜᴀɴᴋꜱ Tᴏ",
 										"description": "Displays The List Of Credit Of The Bot !!",
 										"rowId": `${prefix}tqtt`
 									}
