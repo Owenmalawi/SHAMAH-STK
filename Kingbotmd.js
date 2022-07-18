@@ -1407,11 +1407,12 @@ break
                 KingmdWH.sendMessage(m.chat, buttonMessage, { quoted: m })
             }
             break
-            case 'testcmdking' {
+            case 'testcmdking': {
             
-               KingmdWH.sendMessage(m.chat,{text:'cmd eka nam wada bn hode'})
+         KingmdWH.sendMessage(m.chat, {text:'cmd eka nam wada bn hode'})
                           
                           }
+                          break
                  case 'song':{
                 if (!text) return reply(`Example : .song lelena`)
                 let yts = require("yt-search")
