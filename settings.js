@@ -29,7 +29,7 @@ global.sc = 'https://github.com/KING-BOT-OFFICIAL/KING-BOT-MD'
 global.myweb = 'https://youtube.com/channel/UCgwWV1Cya4_gUFKYOQYQtHw'
 global.packname = '[🇱🇰𝚱𝚰𝚴Ｇ 𝛃𝚯𝚪🤘]'
 global.author = 'ШHłТΞ HΛϾКΞЯS'
-global.alive = process.env.ALIVE_MESSAGE === undefined ? 'default' : process.env.ALIVE_MESSAGE,
+global.alive = process.env.ALIVE_MESSAGE === undefined ? 'default' = process.env.ALIVE_MESSAGE
 global.sessionName = 'session'
 global.reactmoji = '🎭'
 global.prefa = ['','!','.','🇱🇰','⚙️','🤘']
