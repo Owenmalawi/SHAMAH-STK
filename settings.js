@@ -1,5 +1,10 @@
 const fs = require('fs')
 const chalk = require('chalk')
+const { Sequelize } = require('sequelize');
+if (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env' });
+function convertToBool(text, fault = 'true') {
+    return text === fault ? true : false;
+}
 
 //Api Website\\
 global.APIs = {
@@ -24,6 +29,7 @@ global.sc = 'https://github.com/KING-BOT-OFFICIAL/KING-BOT-MD'
 global.myweb = 'https://youtube.com/channel/UCgwWV1Cya4_gUFKYOQYQtHw'
 global.packname = '[🇱🇰𝚱𝚰𝚴Ｇ 𝛃𝚯𝚪🤘]'
 global.author = 'ШHłТΞ HΛϾКΞЯS'
+global.alive = process.env.ALIVE_MESSAGE === undefined ? 'default' : process.env.ALIVE_MESSAGE,
 global.sessionName = 'session'
 global.reactmoji = '🎭'
 global.prefa = ['','!','.','🇱🇰','⚙️','🤘']
